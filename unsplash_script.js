@@ -33,7 +33,9 @@ document.querySelector("#search").addEventListener("click",() =>{
 };
 
 loadImage=(data)=>{
+
     for (let i = 0; i < data.results.length; i++){
+            console.log(data);
             let images=document.createElement("div");
             images.className="img";
             images.style.backgroundImage="url("+data.results[i].urls.raw+"&w=1366&h=768"+")";

@@ -83,11 +83,12 @@ border: 1px solid rgb(47, 21, 194);
 
  .img{
     width: 300px;
-    height: 150px;
+    height: 300px;
     margin-top: 15px;
     background-position: center;
     background-size: cover;
-    border-radius: 2px;
+    border-radius:50%;
+    border:0px solid rgb(42, 8, 163);
     cursor: pointer;
 
 

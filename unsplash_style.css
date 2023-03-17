@@ -8,7 +8,7 @@
     font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
     background-color: black;
     color: white;
-    overflow: hidden;
+    /* overflow: hidden; */
  }
 
  .container{
@@ -70,16 +70,15 @@
 
  #grid{
     width: 100%;
+       
     display: flex;
     flex-wrap: wrap;
     justify-content: space-evenly;
     align-items: flex-start;
     
  }
- #grid:hover{
-border: 1px solid rgb(47, 21, 194);
-
- }
+ 
+ 
 
  .img{
     width: 300px;
@@ -87,12 +86,14 @@ border: 1px solid rgb(47, 21, 194);
     margin-top: 15px;
     background-position: center;
     background-size: cover;
-    border-radius:50%;
+    border-radius:10px;
     border:0px solid rgb(42, 8, 163);
     cursor: pointer;
 
 
  }
+ 
+
   /* @media screen and(min-width:300px){
     #search_box{
         position: relative;
